@@ -1,0 +1,87 @@
+body {
+    background-color: rgba(228,94,29, 0.5);
+    background-image: url('./tomatoes.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Fredoka One', cursive;
+
+}
+hr {
+    border-top: 2px solid rgb(255, 197, 168);
+}
+#container {
+    width: 580px;
+    height: 580px;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color:rgb(255, 197, 168);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+#inner-container {
+    color: white;
+    width: 520px;
+    height: 520px;
+    background-color: rgba(228,94,29, 0.7);
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    font-size: 2em;
+
+}
+#inner-container h1 {
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+#break-label, #session-label {
+
+    font-size: 0.8em;
+}
+#break-decrement, #break-length, #break-increment, #session-decrement, #session-length, #session-increment {
+    display: inline-block;    
+}
+.plus-minus {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: rgb(255, 197, 168);
+    cursor: pointer;
+}
+.panel-item {
+    width: 45%;
+    display: inline-block;
+}
+#session {
+    margin-top: 20px;
+}
+#timer-label {
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+
+#time-left {
+    background-color: rgb(102, 151, 102);
+    color: black;
+    border-radius: 10px;
+    width: 45%;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 1em;
+    border: 4px inset rgb(255, 197, 168);
+    font-family: 'Press Start 2P', cursive;
+
+}
+#start-stop, #reset {
+    filter: invert(100%);
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}
+#credits {
+    font-size: 0.9em;
+}

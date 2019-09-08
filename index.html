@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<!-- header -->
+
+<head>
+    <link rel=stylesheet type=text/css href=./style.css> 
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Pomodoro Clock</title>
+</head>
+<!-- body -->
+
+<body>
+    <div id='container'>
+        <div id='inner-container'>
+            <h1>Pomodoro Clock</h1>
+            <hr />
+            <div class="panel-item">
+                <div id="break-label">Break Length</div>
+                <div id="break-decrement" class="plus-minus"> - </div>
+                <div id="break-length">5</div>
+                <div id="break-increment" class="plus-minus"> + </div>
+            </div>
+            <div class="panel-item">
+                <div id="session-label">Session Length</div>
+                <div id="session-decrement" class="plus-minus"> - </div>
+                <div id="session-length">25</div>
+                <div id="session-increment" class="plus-minus"> + </div>
+            </div>
+            <div id="session">
+                <div id="timer-label">Session</div>
+                <div id="time-left">25 : 00</div>
+                <div id="start-stop"><img src="./play.png"></div>
+                <div id="reset"><img src="./refresh.png"></div>
+            </div>
+        </div>
+    </div>
+    <script src=./script.js> </script> </body> <footer>
+        <p id="credits">Designed and Coded by Natasha Minin</p>
+    <p>Stellarscape Works &#169; 2019</p>
+
+</footer>
+</html>
