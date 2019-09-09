@@ -72,7 +72,7 @@ hr {
     font-family: 'Press Start 2P', cursive;
 
 }
-#start-stop, #reset {
+#start_stop, #reset {
     filter: invert(100%);
     display: inline-block;
     cursor: pointer;
