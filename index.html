@@ -3,14 +3,14 @@
 <!-- header -->
 
 <head>
-    <link rel=stylesheet type=text/css href=./style.css> 
+    <link rel=stylesheet type=text/css href="./style-tomato.css"> 
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Press+Start+2P&display=swap" rel="stylesheet">
     <title>Pomodoro Clock</title>
 </head>
 <!-- body -->
 
 <body>
-    <div id='container'>
+    <div id='container' class="no-select">
         <div id='inner-container'>
             <h1>Pomodoro Clock</h1>
             <hr />
@@ -31,6 +31,7 @@
                 <div id="time-left">120</div>
                 <div id="start_stop"><img id='play-icon' src="./play.png"></div>
                 <div id="reset"><img src="./refresh.png"></div>
+                <audio id="beep" src="./beep.mp3"></audio>
             </div>
         </div>
     </div>
