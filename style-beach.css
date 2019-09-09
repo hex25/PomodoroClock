@@ -10,10 +10,11 @@
 
 body {
     background-color: rgba(228,94,29, 0.5);
-    background-image: url('./tomatoes.png');
+    background-image: url('./beach.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Barriecito', cursive;
+
 
 }
 hr {
@@ -24,7 +25,7 @@ hr {
     height: 590px;
     margin: 40px auto;
     border-radius: 20px;
-    background-color:rgba(255, 197, 168, 0.9);
+    background-color:rgba(250, 233, 140, 0.9);
     text-align: center;
     padding: 10px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
@@ -34,7 +35,7 @@ hr {
     color: white;
     width: 520px;
     height: 530px;
-    background-color: rgb(233, 110, 49);
+    background-color: rgb(253, 156, 65);
     border-radius: 20px;
     margin: 0 auto;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
@@ -103,7 +104,6 @@ hr {
 
 footer {
     text-align: center;
-    color: rgb(226, 223, 223);
 }
 #credits {
     font-size: 0.9em;
